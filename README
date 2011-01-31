@@ -1,0 +1,27 @@
+BookMyDoc intends to develop a web based application that provides a platform for doctors and patients to conveniently interact by maintaining appointments, medical history and feedbacks to medication provided. A patient can look for relevant doctors as per their medical problems, view respective doctor’s appointment timings and fix an appointment; the target audience would be hospitals, doctors and patients. BookMyDoc would display the doctors as per the patient’s requirement of timing and doctor.
+
+
+The proposal illustrates the need to address to problem of getting an appointment from the best suitable doctors as per the patient needs. The application will provide:
+1.	BookMyDoc will provide a common platform for the doctors and the patients to interact and help the doctors expand their business.
+2.	Patients can search for the best suitable doctors as per their requirement of timing and cost.
+3.	The patient’s complete medical history will be stored at one place.
+
+Overview 
+We intend to develop a web based application that would help patients to look for relevant doctors as per their problems, and display convenient appointment timings as per the patient’s requirements. The target audience would be hospitals, doctors and patients. BookMyDoc would display the doctors as per the patient’s requirement of timing and doctor’s cost.
+
+In this application, patient visits the site. The patient would have to register and then log in to the system. After the verification, the patient would have to fill a form regarding the health issues. Based on the category of issues, application would generate a list of doctors and hospitals, their availability timings, and estimate cost. The patient can then request for appointment.
+
+For the next visits, the patient need not fix new appointment unless recommended by the doctor to fix a recurring appointment on a monthly or weekly basis. The patient would login and give the improvement report on the application as feedback to the doctor. The concerned doctor has to respond back to the respective patient. This loop has to be maintained till the mutual consent of the doctor and the patient.
+
+The medical history would be stored in system database for future reference, thus the patient’s health information will be well organized at one place.
+
+Doctor’s availability timings would be fixed. But in case of doctor’s leave, the database must be updated. If the concerned doctor goes at leave on the appointment, then the application would cancel all the appointments as per doctor’s availability and the patients would be intimated about the cancellation. This would provide the patient with a facility to fix a new appointment with the same or a new doctor. 
+
+
+Technical Specifications
+Development Platform- Java 5, JRE, J2EE
+Web Server- Tomcat server on JBOSS 5.1
+Application Server- JBOSS 5.1
+IDE- Eclipse 3.5 - Galileo
+Database- MySQL 5.1
+
